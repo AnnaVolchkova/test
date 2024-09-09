@@ -2,11 +2,14 @@ package main
 
 import "fmt"
 
-func main(x int) int {
+func square(x int) int {
 	return x * x
 }
 
-func main() {
-	fmt.Println("Hello, world!")
+const (
+	s = "new hello world!"
+)
 
+func main() {
+	fmt.Println(s)
 }
